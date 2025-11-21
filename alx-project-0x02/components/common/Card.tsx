@@ -1,5 +1,6 @@
-import { CardProps } from '@/interfaces'
-
+import {type CardProps } from '@/interfaces'
+// import { type CardProps } from '@/interfaces'
+// or with relative
    export default function Card({ title, content }: CardProps) {
      return (
        <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow">
