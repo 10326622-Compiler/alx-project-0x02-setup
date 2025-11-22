@@ -1,5 +1,5 @@
 
-import { ButtonProps } from '@/interfaces'
+import {type ButtonProps } from '@/interfaces'
 
    export default function Button({ title, size, shape, onClick }: ButtonProps) {
      const sizeClasses = {
